@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal_table tr td
+{
+   padding: 5px;
+   margin-right: 10px;
+}

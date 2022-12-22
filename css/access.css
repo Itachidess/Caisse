@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: lightgrey;
+ 
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /*background-color: #2196F3;*/
+    padding: 15px;
+  }
+
+  .grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100%;
+    border: 2px solid black ;
+    margin: 10px 10px;
+    background-color: #4070F4;
+    color: white;
+  }
+
+.block .saisi_mdp input
+  {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    color: red;
+  }
